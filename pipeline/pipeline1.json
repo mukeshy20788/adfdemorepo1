@@ -38,6 +38,13 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"staging": {
+						"linkedService": {
+							"referenceName": "AzureDataLakeStorage1",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": ""
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
